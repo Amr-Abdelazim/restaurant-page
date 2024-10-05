@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #373030;
+}
+
+nav {
+    background-color: rgba(26, 27, 27,0.4);
+    height: 120px;
+    width: 80%;
+    max-width: 800px;
+    margin: 10px auto;
+    border-radius: 50px;
+}
+
+nav button {
+    width: 30%;
+    max-width: 220px;
+    height: auto;
+    background-color: rgb(152, 44, 21);
+    margin-top: 20px;
+    margin-left: 4%;
+    border-radius: 40px;
+    padding: 15px 10px;
+    border: 10px solid rgba(55, 21, 23, 0.3);
+    color: #f0eed1;
+    font-size: 1.2rem;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 600;
+    text-align: center;
+}
+
+nav button:hover {
+    color: black;
+    border: 10px solid rgba(55, 21, 23, 0.8);
+}
+
+.page-container img{
+    height: 80vh;
+    margin: 10px 0 10px auto;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 40px;
+    border: 10px solid rgba(26, 27, 27, 0.4);
+}
+.page-container button{
+    width: 210px;
+    height: 70px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 20px;
+    border: 4px solid rgba(26, 27, 27, 0.4);
+    font-size: 30px;
+        font-family: "Playwrite DE Grund", cursive;
+        font-weight: 600;
+        text-align: center;
+}
+.page-container button:hover{
+    border: 4px solid rgba(26, 27, 27, 1);
+    background-color: black;
+    color: whitesmoke;
+}
+.page-container p {
+    font-size: 50px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 600;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 20vh;
+}
+.page-container{
+    display: flex;
+}
+.text-container{
+    flex: 1,0,50%;
+    width: 50%;
+    height: 80vh;
+}
+.category-container{
+    width: 100%;
+    display: block;
+}
+.category-title{
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 50px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 600;
+    text-align: center;
+    color: whitesmoke;
+    border-bottom: 5px dashed #982c15;
+    padding: 5px;
+}
+
+.menu-item {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px dashed #982c15;
+    /* Dashed line below the text */
+    padding-bottom: 10px;
+    /* Space between text and the dashed line */
+
+}
+
+.item-name {
+    margin-right: 10px;
+    font-size: 24px;
+        font-family: "Playwrite DE Grund", cursive;
+        font-weight: 600;
+        text-align: center;
+        color: whitesmoke;
+
+}
+
+.item-price {
+    margin-left: 10px;
+    font-size: 24px;
+        font-family: "Playwrite DE Grund", cursive;
+        font-weight: 600;
+        text-align: center;
+        color: whitesmoke;
+}
+
+.menu-item .dish-description{
+    display: block;
+    font-size: 16px;
+        font-family: "Playwrite DE Grund", cursive;
+        font-weight: 600;
+        text-align: center;
+        color: whitesmoke;
+        letter-spacing: 2px
+}
+
+
+.about-section {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.about-title {
+    color: #f5f5f5;
+    margin-bottom: 10px;
+}
+
+.about-description {
+    color: #f5f5f5;
+    line-height: 1.5;
+}
